@@ -1,0 +1,29 @@
+{
+  "name": "react-native-simple-serialport",
+  "version": "1.0.1",
+  "description": "Wrap react-native-serialport for easy to use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burin-sapsiri/react-native-simple-serialport.git"
+  },
+  "keywords": [
+    "React",
+    "native",
+    "Serial",
+    "port"
+  ],
+  "author": "Burin Sapsiri <burin.coding@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burin-sapsiri/react-native-simple-serialport/issues"
+  },
+  "homepage": "https://github.com/burin-sapsiri/react-native-simple-serialport#readme",
+  "dependencies": {
+    "react-native": "^0.63.2",
+    "react-native-serialport": "^1.3.1"
+  }
+}
