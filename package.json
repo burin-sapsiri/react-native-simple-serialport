@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-serialport",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "Wrap react-native-serialport for easy to use.",
   "main": "index.js",
   "scripts": {
