@@ -111,10 +111,15 @@ const write = (uint8Array) => {
     RNSerialport.writeIntArray(intArray)
 }
 
+const writeString = (text) => {
+    RNSerialport.writeString(text)
+}
+
 const RNSimpleSerialport = {
     definitions,
     startUsbSerial,
     write,
+    writeString,
 }
 
 export default RNSimpleSerialport
