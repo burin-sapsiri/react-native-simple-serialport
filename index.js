@@ -16,6 +16,13 @@ const startUsbSerial = ({
         if (response.deviceAttached) {
           event.emit('deviceAttached')
         }
+
+        RNSerialport.isOpen()
+        .then((isOpen) => {
+            if (isOpen === true) {
+                event.emit('connected')
+            }
+        })
     }
     const serviceStopped = () => {
         event.emit('serviceStopped')
