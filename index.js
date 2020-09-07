@@ -106,9 +106,15 @@ const startUsbSerial = ({
     return event
 }
 
+const write = (uint8Array) => {
+    const intArray = Array.from(uint8Array)
+    RNSerialport.writeIntArray(intArray)
+}
+
 const RNSimpleSerialport = {
     definitions,
     startUsbSerial,
+    write,
 }
 
 export default RNSimpleSerialport
