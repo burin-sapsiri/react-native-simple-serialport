@@ -1,4 +1,4 @@
-import { RNSerialport, definitions, actions } from "react-native-serialport"
+import { RNSerialport, definitions, actions } from "react-native-serialport-busap-temporary"
 import { DeviceEventEmitter } from "react-native"
 import EventEmitter from 'events'
 
