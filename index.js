@@ -19,7 +19,7 @@ const startUsbSerial = ({
 
         RNSerialport.isOpen()
         .then((isOpen) => {
-            if (isOpen === true) {
+            if (isOpen) {
                 event.emit('connected')
             }
         })
